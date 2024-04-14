@@ -14,5 +14,7 @@ return {
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
+  { import = "astrocommunity.utility.noice-nvim" },
   -- import/override with your plugins folder
 }
