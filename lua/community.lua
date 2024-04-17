@@ -10,7 +10,7 @@ return {
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.php" },
-  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
