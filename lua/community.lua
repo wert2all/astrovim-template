@@ -16,5 +16,6 @@ return {
   { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.media.vim-wakatime" },
   -- import/override with your plugins folder
 }
