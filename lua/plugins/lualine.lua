@@ -6,7 +6,7 @@ return {
   },
   opts = {
     options = {
-      theme = "seoul256",
+      theme = "auto",
       component_separators = { left = "│", right = "│" },
       section_separators = { left = "", right = "" },
       globalstatus = true,
@@ -23,7 +23,7 @@ return {
         { "fancy_diff" },
       },
       lualine_c = {
-        { "fancy_cwd", substitute_home = true },
+        { "filename", colored = true, path = 1 },
       },
       lualine_x = {
         { "fancy_macro" },
