@@ -2,8 +2,7 @@ return {
   "nvim-lualine/lualine.nvim",
   dependencies = {
     "nvim-tree/nvim-web-devicons",
-    { "meuter/lualine-so-fancy.nvim", commit = "21284504fed2776668fdea8743a528774de5d2e1"
- },
+    "meuter/lualine-so-fancy.nvim",
   },
   opts = {
     options = {
