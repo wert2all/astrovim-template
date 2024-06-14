@@ -14,6 +14,10 @@ return {
           end,
           desc = "Close buffer",
         },
+        ["<Leader>uo"] = {
+          function() vim.cmd "ASToggle" end,
+          desc = "Toggle auto-save",
+        },
       },
     },
   },
