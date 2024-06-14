@@ -1,43 +1,26 @@
----@type LazySpec
 return {
   {
-    "Exafunction/codeium.vim",
-    event = "User AstroFile",
+    "Exafunction/codeium.nvim",
     opts = {
       enable_chat = false,
     },
-    dependencies = {
-      "nvim-lua/plenary.nvim",
-      "hrsh7th/nvim-cmp",
-      {
-        "AstroNvim/astrocore",
-        opts = {
-          mappings = {
-            n = {
-              ["<Leader>;"] = {
-                name = " Codeium",
-              },
-              ["<Leader>;t"] = {
-                desc = "Toggle Codeium active",
-                function()
-                  if vim.g.codeium_enabled == true then
-                    vim.cmd "CodeiumDisable"
-                  else
-                    vim.cmd "CodeiumEnable"
-                  end
-                end,
-              },
-            },
-          },
-        },
-      },
-    },
-    config = function()
-      vim.keymap.set("i", "<C-g>", function() return vim.fn["codeium#Accept"]() end, { expr = true })
-      vim.keymap.set("i", "<c-;>", function() return vim.fn["codeium#CycleCompletions"](1) end, { expr = true })
-      vim.keymap.set("i", "<c-,>", function() return vim.fn["codeium#CycleCompletions"](-1) end, { expr = true })
-      vim.keymap.set("i", "<c-x>", function() return vim.fn["codeium#Clear"]() end, { expr = true })
-    end,
+    -- dependencies = {
+    --   "AstroNvim/astrocore",
+    --   ---@param opts AstroCoreOpts
+    --   opts = {
+    --     mappings = {
+    --       n = {
+    --         ["<Leader>;"] = {
+    --           name = " Codeium",
+    --         },
+    --         ["<Leader>;o"] = {
+    --           desc = "Open Chat",
+    --           function() vim.cmd "Codeium Chat" end,
+    --         },
+    --       },
+    --     },
+    --   },
+    -- },
   },
   {
     "hrsh7th/nvim-cmp",
