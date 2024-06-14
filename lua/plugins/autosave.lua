@@ -2,21 +2,6 @@ return {
   "okuuva/auto-save.nvim",
   cmd = "ASToggle",
   event = { "InsertLeave", "TextChanged" }, -- optional for lazy loading on trigger events
-  dependencies = {
-    {
-      "AstroNvim/astrocore",
-      opts = {
-        mappings = {
-          n = {
-            ["<Leader>uo"] = {
-              desc = "Toggle auto-save",
-              function() vim.cmd "ASToggle" end,
-            },
-          },
-        },
-      },
-    },
-  },
   opts = {
     enabled = true,
     execution_message = {
