@@ -1,7 +1,7 @@
 return {
   "Exafunction/codeium.vim",
   event = "User AstroFile",
-  commit = "289eb724e5d6fab2263e94a1ad6e54afebefafb2",
+  -- commit = "289eb724e5d6fab2263e94a1ad6e54afebefafb2",
   config = function()
     vim.keymap.set("i", "<C-g>", function() return vim.fn["codeium#Accept"]() end, { expr = true })
     vim.keymap.set("i", "<c-;>", function() return vim.fn["codeium#CycleCompletions"](1) end, { expr = true })
