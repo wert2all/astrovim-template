@@ -4,7 +4,7 @@ return {
   opts = {
     mappings = {
       n = {
-        ["<Leader>fB"] = { "<cmd>Telescope register<cr>", desc = "Resisters" },
+        ["<Leader>fB"] = { "<cmd>Telescope registers<cr>", desc = "Resisters" },
         ["<Leader>fr"] = { "<cmd>Telescope oldfiles<cr>", desc = "Recent files" },
         ["<Leader>c"] = {
           function()
