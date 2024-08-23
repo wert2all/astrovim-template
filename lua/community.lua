@@ -17,5 +17,6 @@ return {
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.icon.mini-icons" },
+  { import = "astrocommunity.color.tint-nvim" },
   -- import/override with your plugins folder
 }
