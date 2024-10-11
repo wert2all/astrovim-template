@@ -3,6 +3,8 @@ return {
   "alexmozaidze/palenight.nvim",
   "samharju/synthweave.nvim",
   "folke/tokyonight.nvim",
+  "vague2k/vague.nvim",
+  "EdenEast/nightfox.nvim",
   {
     "catppuccin/nvim",
     name = "catppuccin",
