@@ -20,5 +20,7 @@ return {
   { import = "astrocommunity.color.tint-nvim" },
   { import = "astrocommunity.completion.magazine-nvim" },
 
+  -- doubtful
+  { import = "astrocommunity.editing-support.auto-save-nvim" },
   -- import/override with your plugins folder
 }
