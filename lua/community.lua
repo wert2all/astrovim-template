@@ -22,5 +22,5 @@ return {
 
   -- doubtful
   { import = "astrocommunity.editing-support.auto-save-nvim" },
-  -- import/override with your plugins folder
+  { import = 'astrocommunity.diagnostics.tiny-inline-diagnostic-nvim'}
 }
