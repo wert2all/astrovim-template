@@ -21,6 +21,6 @@ return {
   { import = "astrocommunity.completion.magazine-nvim" },
 
   -- doubtful
-  { import = "astrocommunity.editing-support.auto-save-nvim" },
-  { import = 'astrocommunity.diagnostics.tiny-inline-diagnostic-nvim'}
+  -- { import = "astrocommunity.editing-support.auto-save-nvim" },
+  { import = "astrocommunity.diagnostics.tiny-inline-diagnostic-nvim" },
 }
