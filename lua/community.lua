@@ -18,7 +18,7 @@ return {
   { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.icon.mini-icons" },
   { import = "astrocommunity.color.tint-nvim" },
-  { import = "astrocommunity.completion.magazine-nvim" },
+  -- { import = "astrocommunity.completion.magazine-nvim" },
 
   -- doubtful
   -- { import = "astrocommunity.editing-support.auto-save-nvim" },
