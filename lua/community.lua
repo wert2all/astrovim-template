@@ -18,9 +18,9 @@ return {
   { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.icon.mini-icons" },
   { import = "astrocommunity.color.tint-nvim" },
-  -- { import = "astrocommunity.completion.magazine-nvim" },
+  { import = "astrocommunity.diagnostics.tiny-inline-diagnostic-nvim" },
 
   -- doubtful
-  -- { import = "astrocommunity.editing-support.auto-save-nvim" },
-  { import = "astrocommunity.diagnostics.tiny-inline-diagnostic-nvim" },
+  -- { import = "astrocommunity.editing-support.auto-save-nvim" }, - should test format angular  templates
+  -- { import = "astrocommunity.completion.magazine-nvim" }, -- maybe has a perfomance iisue
 }
