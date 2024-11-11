@@ -20,6 +20,11 @@ return {
   { import = "astrocommunity.color.tint-nvim" },
   { import = "astrocommunity.diagnostics.tiny-inline-diagnostic-nvim" },
 
+  { import = "astrocommunity.completion.cmp-nerdfont" },
+  { import = "astrocommunity.completion.cmp-emoji" },
+
+  { import = "astrocommunity.recipes.disable-tabline" },
+
   -- doubtful
   -- { import = "astrocommunity.editing-support.auto-save-nvim" }, - should test format angular  templates
   -- { import = "astrocommunity.completion.magazine-nvim" }, -- maybe has a perfomance iisue
