@@ -23,9 +23,9 @@ return {
   { import = "astrocommunity.completion.cmp-nerdfont" },
   { import = "astrocommunity.completion.cmp-emoji" },
 
-  { import = "astrocommunity.recipes.disable-tabline" },
+  -- { import = "astrocommunity.recipes.disable-tabline" },
 
   -- doubtful
   -- { import = "astrocommunity.editing-support.auto-save-nvim" }, - should test format angular  templates
-  -- { import = "astrocommunity.completion.magazine-nvim" }, -- maybe has a perfomance iisue
+  -- { import = "astrocommunity.completion.magazine-nvim" }, -- maybe has a perfomance issue
 }
