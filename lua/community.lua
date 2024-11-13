@@ -24,7 +24,6 @@ return {
   { import = "astrocommunity.completion.cmp-emoji" },
 
   -- doubtful
-  { import = "astrocommunity.completion.blink-cmp" },
   -- { import = "astrocommunity.editing-support.auto-save-nvim" }, - should test format angular  templates
   -- { import = "astrocommunity.completion.magazine-nvim" }, -- maybe has a perfomance issue
 }
