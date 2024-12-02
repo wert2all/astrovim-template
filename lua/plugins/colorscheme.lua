@@ -3,6 +3,7 @@ return {
   "alexmozaidze/palenight.nvim",
   "samharju/synthweave.nvim",
   "folke/tokyonight.nvim",
+  "rebelot/kanagawa.nvim",
   "vague2k/vague.nvim",
   "EdenEast/nightfox.nvim",
   {
