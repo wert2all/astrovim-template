@@ -1,7 +1,8 @@
 return {
   "nvim-neo-tree/neo-tree.nvim",
   opts = {
-    window = { position = "right" },
+    window = { position = "float" },
+    popup_border_style = "single",
     filesystem = {
       filtered_items = {
         hide_dotfiles = false,
@@ -13,6 +14,6 @@ return {
         },
       },
     },
-    close_if_last_window = false,
+    close_if_last_window = true,
   },
 }
