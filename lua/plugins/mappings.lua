@@ -18,6 +18,11 @@ return {
           function() vim.cmd "ASToggle" end,
           desc = "Toggle auto-save",
         },
+        ["<Leader>e"] = {
+          "<cmd>Neotree float reveal<cr>",
+          desc = "Toggle Explorer",
+        },
+        ["<Leader>o"] = false,
       },
     },
   },
