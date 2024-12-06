@@ -23,6 +23,8 @@ return {
   { import = "astrocommunity.completion.cmp-nerdfont" },
   { import = "astrocommunity.completion.cmp-emoji" },
 
+  { import = "astrocommunity.recipes.heirline-vscode-winbar" },
+
   -- doubtful
   -- { import = "astrocommunity.editing-support.auto-save-nvim" }, - should test format angular  templates
   -- { import = "astrocommunity.completion.magazine-nvim" }, -- maybe has a perfomance issue
