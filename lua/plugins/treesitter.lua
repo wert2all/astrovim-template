@@ -23,6 +23,8 @@ return {
       "json",
       "lua",
       "luadoc",
+      "markdown",
+      "markdown_inline",
       "nginx",
       "nix",
       "php",
