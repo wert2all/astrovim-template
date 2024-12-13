@@ -8,8 +8,9 @@ return {
         ["<Leader>fr"] = { "<cmd>Telescope oldfiles<cr>", desc = "Recent files" },
         ["<Leader>c"] = {
           function()
+            local bufs = vim.fn.getbufinfo { buflisted = 1 }
             require("astrocore.buffer").close(0)
-            require("btw").open()
+            if not bufs[2] then require("btw").open() end
           end,
           desc = "Close buffer",
         },
