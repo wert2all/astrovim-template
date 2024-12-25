@@ -24,6 +24,7 @@ return {
   { import = "astrocommunity.completion.cmp-emoji" },
 
   { import = "astrocommunity.recipes.heirline-vscode-winbar" },
+  { import = "astrocommunity.completion.blink-cmp" },
 
   -- doubtful
   -- { import = "astrocommunity.editing-support.auto-save-nvim" }, - should test format angular  templates
