@@ -43,6 +43,9 @@ return {
           hl.NotifyINFOBorder = { fg = c.bg }
           hl.NotifyDEBUGBorder = { fg = c.bg }
           hl.NotifyTRACEBorder = { fg = c.bg }
+
+          -- neotree borders
+          hl.NeoTreeFloatBorder = { fg = c.bg }
         end,
       }
     end,
