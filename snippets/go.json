@@ -1,0 +1,12 @@
+{
+  "iferr": {
+    "prefix": ["iferr"],
+    "body": ["if err !=nil {", "\t$1", "}", ""],
+    "description": "error handler"
+  },
+  "utild": {
+    "prefix": ["utild"],
+    "body": ["utils.D($1)", ""],
+    "description": "dump variables"
+  }
+}
