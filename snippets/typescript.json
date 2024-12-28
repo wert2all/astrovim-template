@@ -1,0 +1,11 @@
+{
+  "efffun": {
+    "prefix": ["efffun"],
+    "body": [
+      "const $1 = (actions$ = inject(Actions)) =>",
+      "\tactions$.pipe(ofType($2), $3);",
+      ""
+    ],
+    "description": "effect function"
+  }
+}
