@@ -8,19 +8,6 @@ return {
     config = function()
       require("tokyonight").setup {
         on_highlights = function(hl, c)
-          function dump(o)
-            if type(o) == "table" then
-              local s = "{ "
-              for k, v in pairs(o) do
-                if type(k) ~= "number" then k = '"' .. k .. '"' end
-                s = s .. "[" .. k .. "] = " .. dump(v) .. ","
-              end
-              return s .. "} "
-            else
-              return tostring(o)
-            end
-          end
-
           local prompt = "#2d3149"
           hl.TelescopeNormal = {
             bg = c.bg_dark,
@@ -49,7 +36,7 @@ return {
             bg = c.bg_dark,
             fg = c.bg_dark,
           }
-          print("dump :", dump(c))
+
           -- notify borders
           hl.NotifyERRORBorder = { fg = c.bg_dark }
           hl.NotifyWARNBorder = { fg = c.bg_dark }
