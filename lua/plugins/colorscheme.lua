@@ -2,54 +2,7 @@ return {
   { "sainnhe/gruvbox-material", lazy = true },
   { "wilmanbarrios/palenight.nvim", lazy = true },
   { "samharju/synthweave.nvim", lazy = true },
-  {
-    "folke/tokyonight.nvim",
-    lazy = true,
-    config = function()
-      require("tokyonight").setup {
-        on_highlights = function(hl, c)
-          local prompt = "#2d3149"
-          hl.TelescopeNormal = {
-            bg = c.bg_dark,
-            fg = c.fg_dark,
-          }
-          hl.TelescopeBorder = {
-            bg = c.bg_dark,
-            fg = c.bg_dark,
-          }
-          hl.TelescopePromptNormal = {
-            bg = prompt,
-          }
-          hl.TelescopePromptBorder = {
-            bg = prompt,
-            fg = prompt,
-          }
-          hl.TelescopePromptTitle = {
-            bg = prompt,
-            fg = prompt,
-          }
-          hl.TelescopePreviewTitle = {
-            bg = c.bg_dark,
-            fg = c.bg_dark,
-          }
-          hl.TelescopeResultsTitle = {
-            bg = c.bg_dark,
-            fg = c.bg_dark,
-          }
-
-          -- notify borders
-          hl.NotifyERRORBorder = { fg = c.bg_dark }
-          hl.NotifyWARNBorder = { fg = c.bg_dark }
-          hl.NotifyINFOBorder = { fg = c.bg_dark }
-          hl.NotifyDEBUGBorder = { fg = c.bg_dark }
-          hl.NotifyTRACEBorder = { fg = c.bg_dark }
-
-          -- neotree borders
-          hl.NeoTreeFloatBorder = { fg = c.bg }
-        end,
-      }
-    end,
-  },
+  { "folke/tokyonight.nvim", lazy = true },
   { "rebelot/kanagawa.nvim", lazy = true },
   { "vague2k/vague.nvim", lazy = true },
   { "EdenEast/nightfox.nvim", lazy = true },
