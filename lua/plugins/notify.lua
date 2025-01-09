@@ -1,9 +1,8 @@
 return {
   "rcarriga/nvim-notify",
-  config = function()
-    require("notify").setup {
-      animation = "slide",
-      render = "minimal",
-    }
-  end,
+  opts = {
+    animation = "slide",
+    render = "compact",
+    top_down = false,
+  },
 }
