@@ -15,4 +15,13 @@ return {
       opts.statusline = nil -- rmove statusline
     end,
   },
+  {
+    "AstroNvim/astrocore",
+    ---@type AstroCoreOpts
+    opts = {
+      mappings = {
+        n = { ["<Leader>bb"] = false },
+      },
+    },
+  },
 }
