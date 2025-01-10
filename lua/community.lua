@@ -19,6 +19,7 @@ return {
   { import = "astrocommunity.icon.mini-icons" },
   { import = "astrocommunity.color.tint-nvim" },
   { import = "astrocommunity.diagnostics.tiny-inline-diagnostic-nvim" },
+  { import = "astrocommunity.editing-support.zen-mode-nvim" },
 
   { import = "astrocommunity.completion.cmp-nerdfont" },
   { import = "astrocommunity.completion.cmp-emoji" },
