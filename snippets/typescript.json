@@ -7,5 +7,10 @@
       ""
     ],
     "description": "effect function"
+  },
+  "onred": {
+    "prefix": ["onred"],
+    "body": ["on($1, (state, { $2 }) => ({", "\t...state,", "  \t$3", "})),"],
+    "description": "on reducer"
   }
 }
