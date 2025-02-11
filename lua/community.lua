@@ -26,6 +26,7 @@ return {
   { import = "astrocommunity.completion.cmp-emoji" },
 
   { import = "astrocommunity.recipes.heirline-vscode-winbar" },
+  { import = "astrocommunity.fuzzy-finder.fzf-lua" },
   -- { import = "astrocommunity.completion.blink-cmp" },
 
   -- doubtful
