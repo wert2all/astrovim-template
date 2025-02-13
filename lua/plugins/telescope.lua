@@ -15,17 +15,4 @@ return {
       },
     },
   },
-  {
-    "AstroNvim/astrocore",
-    opts = {
-      mappings = {
-        n = {
-          ["grr"] = {
-            function() require("telescope.builtin").lsp_references() end,
-            desc = "LSP references",
-          },
-        },
-      },
-    },
-  },
 }
