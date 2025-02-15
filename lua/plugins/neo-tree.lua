@@ -2,6 +2,7 @@ return {
   {
     "nvim-neo-tree/neo-tree.nvim",
     opts = {
+      source_selector = { sources = { { source = "filesystem" } } },
       popup_border_style = "single",
       filesystem = {
         filtered_items = {
