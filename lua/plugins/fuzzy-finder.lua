@@ -5,7 +5,7 @@ return {
       mappings = {
         n = {
           ["grr"] = {
-            function() require("fzf-lua").lsp_references() end,
+            function() Snacks.picker.lsp_references() end,
             desc = "LSP references",
           },
         },
