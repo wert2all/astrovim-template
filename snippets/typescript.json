@@ -12,5 +12,14 @@
     "prefix": ["onred"],
     "body": ["on($1, (state, { $2 }) => ({", "\t...state,", "  \t$3", "})),"],
     "description": "on reducer"
+  },
+  "creff": {
+    "prefix": ["creff"],
+    "body": [
+      "createEffect((actions$ = inject(Actions)) => {",
+      "\t return actions$.pipe(ofType($1), $2);",
+      "}, StoreDispatchEffect)"
+    ],
+    "description": "create effect"
   }
 }
