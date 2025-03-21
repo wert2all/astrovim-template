@@ -30,6 +30,6 @@ return {
   -- { import = "astrocommunity.completion.blink-cmp" },
 
   -- doubtful
-  -- { import = "astrocommunity.editing-support.auto-save-nvim" }, - should test format angular  templates
+  { import = "astrocommunity.editing-support.auto-save-nvim" }, -- should test format angular  templates
   -- { import = "astrocommunity.completion.magazine-nvim" }, -- maybe has a perfomance issue
 }
