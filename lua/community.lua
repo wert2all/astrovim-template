@@ -22,9 +22,6 @@ return {
   { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { import = "astrocommunity.markdown-and-latex.markview-nvim" },
 
-  -- { import = "astrocommunity.completion.cmp-nerdfont" },
-  -- { import = "astrocommunity.completion.cmp-emoji" },
-
   { import = "astrocommunity.recipes.heirline-vscode-winbar" },
   -- { import = "astrocommunity.fuzzy-finder.snacks-picker" },
   -- { import = "astrocommunity.completion.blink-cmp" },
