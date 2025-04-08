@@ -13,6 +13,9 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.ansible" },
+
+  { import = "astrocommunity.completion.avante-nvim" },
+
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.media.vim-wakatime" },
