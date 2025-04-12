@@ -1,10 +1,16 @@
 return {
-
   {
     "olimorris/codecompanion.nvim",
     dependencies = {
       { "nvim-lua/plenary.nvim", branch = "master" },
-      "nvim-treesitter/nvim-treesitter",
+      {
+        "nvim-treesitter/nvim-treesitter",
+        opts = function(_, opts)
+          if opts.ensure_installed ~= "all" then
+            opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, { "markdown" })
+          end
+        end,
+      },
     },
     opts = {
       strategies = {
@@ -23,7 +29,7 @@ return {
           return require("codecompanion.adapters").extend("openai_compatible", {
             env = {
               url = "https://openrouter.ai/api",
-              api_key = os.getenv("OPENROUTER_API_KEY"),
+              api_key = os.getenv "OPENROUTER_API_KEY",
               chat_url = "/v1/chat/completions",
             },
             schema = {
