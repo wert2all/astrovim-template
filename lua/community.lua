@@ -24,6 +24,8 @@ return {
   { import = "astrocommunity.markdown-and-latex.markview-nvim" },
 
   { import = "astrocommunity.recipes.heirline-vscode-winbar" },
+  { import = "astrocommunity.snippet.mini-snippets" },
+
   -- { import = "astrocommunity.fuzzy-finder.snacks-picker" },
   -- { import = "astrocommunity.completion.blink-cmp" },
 
