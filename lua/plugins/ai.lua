@@ -15,16 +15,28 @@ return {
     opts = {
       strategies = {
         chat = {
-          adapter = "openrouter",
+          adapter = "mistral",
         },
         inline = {
-          adapter = "openrouter",
+          adapter = "mistral",
         },
         cmd = {
-          adapter = "openrouter",
+          adapter = "mistral",
         },
       },
       adapters = {
+        mistral = function()
+          return require("codecompanion.adapters").extend("mistral", {
+            env = {
+              api_key = os.getenv "MISTRAL_API_KEY",
+            },
+            schema = {
+              model = {
+                default = "codestral-latest",
+              },
+            },
+          })
+        end,
         openrouter = function()
           return require("codecompanion.adapters").extend("openai_compatible", {
             env = {
