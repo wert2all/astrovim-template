@@ -2,24 +2,10 @@
   "efffun": {
     "prefix": ["efffun"],
     "body": [
-      "const $1 = (actions$ = inject(Actions)) =>",
+      "export const $1 = (actions$ = inject(Actions)) =>",
       "\tactions$.pipe(ofType($2), $3);",
       ""
     ],
     "description": "effect function"
-  },
-  "onred": {
-    "prefix": ["onred"],
-    "body": ["on($1, (state, { $2 }) => ({", "\t...state,", "  \t$3", "})),"],
-    "description": "on reducer"
-  },
-  "creff": {
-    "prefix": ["creff"],
-    "body": [
-      "createEffect((actions$ = inject(Actions)) => {",
-      "\t return actions$.pipe(ofType($1), $2);",
-      "}, StoreDispatchEffect)"
-    ],
-    "description": "create effect"
   }
 }
