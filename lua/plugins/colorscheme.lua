@@ -27,4 +27,5 @@ return {
   { "EdenEast/nightfox.nvim", lazy = true },
   { "fynnfluegge/monet.nvim", name = "monet", lazy = true },
   { "savq/melange-nvim", lazy = true },
+  { "koalhack/darcubox-nvim", lazy = true },
 }
