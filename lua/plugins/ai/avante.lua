@@ -3,7 +3,7 @@ return {
     "yetone/avante.nvim",
     opts = {
       provider = "gemini",
-      vendors = {
+      providers = {
         openrouter = {
           __inherited_from = "openai",
           endpoint = "https://openrouter.ai/api/v1",
