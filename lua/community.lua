@@ -25,7 +25,6 @@ return {
 
   { import = "astrocommunity.recipes.heirline-vscode-winbar" },
   { import = "astrocommunity.completion.avante-nvim" },
-  { import = "astrocommunity.workflow.precognition-nvim" },
 
   -- doubtful
   { import = "astrocommunity.editing-support.auto-save-nvim" }, -- should test format angular  templates
