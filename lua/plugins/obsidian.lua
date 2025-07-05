@@ -16,7 +16,7 @@ return {
             ["gf"] = {
               function()
                 if require("obsidian").util.cursor_on_markdown_link() then
-                  return "<Cmd>ObsidianFollowLink<CR>"
+                  return "<Cmd>Obsidian follow_link<CR>"
                 else
                   return "gf"
                 end
@@ -26,7 +26,7 @@ return {
             ["<Leader>On"] = {
               function()
                 require "obsidian"
-                vim.api.nvim_command("ObsidianNew inbox/" .. os.date "%Y-%m-%d" .. "-note.md")
+                vim.api.nvim_command("Obsidian new inbox/" .. os.date "%Y-%m-%d" .. "-note.md")
               end,
               desc = "Create new Obsidian note in income folder",
             },
@@ -38,8 +38,14 @@ return {
   opts = function(_, opts)
     local astrocore = require "astrocore"
     return astrocore.extend_tbl(opts, {
-      dir = vim.env.HOME .. "/" .. vaultDirectory,
-      use_advanced_uri = true,
+      workspaces = {
+        {
+          path = vim.env.HOME .. "/" .. vaultDirectory,
+        },
+      },
+      open = {
+        use_advanced_uri = true,
+      },
       finder = (astrocore.is_available "telescope.nvim" and "telescope.nvim")
         or (astrocore.is_available "fzf-lua" and "fzf-lua")
         or (astrocore.is_available "mini.pick" and "mini.pick")
