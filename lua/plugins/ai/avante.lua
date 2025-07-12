@@ -19,6 +19,11 @@ return {
           max_tokens = 4096, -- to avoid using max_completion_tokens
         },
       },
+      windows = {
+        input = {
+          height = 10,
+        },
+      },
     },
   },
 }
