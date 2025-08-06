@@ -1,11 +1,22 @@
 {
   "efffun": {
-    "prefix": ["efffun"],
+    "prefix": [
+      "efffun"
+    ],
     "body": [
       "export const $1 = (actions$ = inject(Actions)) =>",
       "\tactions$.pipe(ofType($2), $3);",
       ""
     ],
     "description": "effect function"
+  },
+  "onr": {
+    "prefix": [
+      "onr"
+    ],
+    "body": [
+      "\non($1, (state, $3):$2=>({...state, $4})),\n"
+    ],
+    "description": "reducer"
   }
 }
