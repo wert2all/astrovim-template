@@ -13,6 +13,7 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.ansible" },
+  { import = "astrocommunity.pack.markdown" },
 
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
