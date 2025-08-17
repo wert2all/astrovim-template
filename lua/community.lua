@@ -15,18 +15,16 @@ return {
   { import = "astrocommunity.pack.ansible" },
   { import = "astrocommunity.pack.markdown" },
 
-  { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.icon.mini-icons" },
-  { import = "astrocommunity.color.tint-nvim" },
   { import = "astrocommunity.diagnostics.tiny-inline-diagnostic-nvim" },
-  { import = "astrocommunity.editing-support.zen-mode-nvim" },
+  -- { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { import = "astrocommunity.markdown-and-latex.markview-nvim" },
-
   { import = "astrocommunity.recipes.heirline-vscode-winbar" },
+
+  -- ai
   { import = "astrocommunity.completion.supermaven-nvim" },
-  -- doubtful
-  { import = "astrocommunity.editing-support.auto-save-nvim" }, -- should test format angular  templates
-  -- { import = "astrocommunity.completion.magazine-nvim" }, -- maybe has a perfomance issue
+
+  { import = "astrocommunity.editing-support.auto-save-nvim" },
 }
