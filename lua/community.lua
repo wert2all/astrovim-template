@@ -25,7 +25,6 @@ return {
   { import = "astrocommunity.markdown-and-latex.markview-nvim" },
 
   { import = "astrocommunity.recipes.heirline-vscode-winbar" },
-  { import = "astrocommunity.completion.avante-nvim" },
   { import = "astrocommunity.completion.supermaven-nvim" },
   -- doubtful
   { import = "astrocommunity.editing-support.auto-save-nvim" }, -- should test format angular  templates
