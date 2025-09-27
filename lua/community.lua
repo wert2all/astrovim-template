@@ -14,6 +14,7 @@ return {
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.ansible" },
   { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.prettier" },
 
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.media.vim-wakatime" },
@@ -24,7 +25,6 @@ return {
   { import = "astrocommunity.recipes.heirline-vscode-winbar" },
 
   -- ai
-  { import = "astrocommunity.completion.avante-nvim" },
   { import = "astrocommunity.completion.supermaven-nvim" },
 
   { import = "astrocommunity.editing-support.auto-save-nvim" },
