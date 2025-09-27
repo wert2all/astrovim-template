@@ -23,7 +23,7 @@ return {
   { import = "astrocommunity.markdown-and-latex.markview-nvim" },
   { import = "astrocommunity.recipes.heirline-vscode-winbar" },
 
-  -- ai
+  { import = "astrocommunity.recipes.heirline-vscode-winbar" },
   { import = "astrocommunity.completion.supermaven-nvim" },
 
   { import = "astrocommunity.editing-support.auto-save-nvim" },
