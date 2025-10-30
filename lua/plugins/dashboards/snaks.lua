@@ -1,1 +1,0 @@
-"plugins.dashboard.functions"

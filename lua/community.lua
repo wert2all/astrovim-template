@@ -23,9 +23,9 @@ return {
   -- { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { import = "astrocommunity.markdown-and-latex.markview-nvim" },
   { import = "astrocommunity.recipes.heirline-vscode-winbar" },
+  { import = "astrocommunity.editing-support.auto-save-nvim" },
 
   -- ai
   { import = "astrocommunity.completion.supermaven-nvim" },
-
-  { import = "astrocommunity.editing-support.auto-save-nvim" },
+  { import = "astrocommunity.editing-support.codecompanion-nvim" },
 }
