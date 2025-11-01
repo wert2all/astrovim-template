@@ -26,6 +26,5 @@ return {
   { import = "astrocommunity.editing-support.auto-save-nvim" },
 
   -- ai
-  { import = "astrocommunity.completion.supermaven-nvim" },
   { import = "astrocommunity.editing-support.codecompanion-nvim" },
 }
