@@ -14,7 +14,7 @@ return {
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.ansible" },
   { import = "astrocommunity.pack.markdown" },
-  { import = "astrocommunity.pack.prettier" },
+  { import = "astrocommunity.pack.biome" },
 
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.media.vim-wakatime" },
