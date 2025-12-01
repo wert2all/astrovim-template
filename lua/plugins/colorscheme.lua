@@ -31,4 +31,5 @@ return {
   { "savq/melange-nvim", lazy = true },
   { "koalhack/darcubox-nvim", lazy = true },
   { "xeind/nightingale.nvim", lazy = true },
+  { "Shatur/neovim-ayu", lazy=true}
 }
