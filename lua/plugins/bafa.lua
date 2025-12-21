@@ -1,3 +1,0 @@
-return {
-  { "mistweaverco/bafa.nvim" },
-}
