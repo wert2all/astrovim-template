@@ -6,6 +6,16 @@ return {
         matcher = {
           frecency = true,
         },
+        sources = {
+          grep = {
+            hidden = true,
+            ignored = true,
+          },
+          files = {
+            hidden = true,
+            ignored = true,
+          },
+        },
       },
     },
   },
