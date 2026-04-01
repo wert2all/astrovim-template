@@ -33,9 +33,9 @@ return {
         pickers = {
           enable = true,
           provider = (is_available "telescope.nvim" and "telescope")
-              or (is_available "fzf-lua" and "fzf-lua")
-              or (is_available "snacks.nvim" and "snacks")
-              or "ui.select",
+            or (is_available "fzf-lua" and "fzf-lua")
+            or (is_available "snacks.nvim" and "snacks")
+            or "ui.select",
         },
       }
     end,
@@ -75,14 +75,14 @@ return {
     "WhoIsSethDaniel/mason-tool-installer.nvim",
     optional = true,
     opts = function(_, opts)
-      opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, { "pint" })
+      opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, { "pint", "laravel-ls" })
     end,
   },
   {
     "jay-babu/mason-null-ls.nvim",
     optional = true,
     opts = function(_, opts)
-      opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, { "pint" })
+      opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, { "pint", "laravel-ls" })
     end,
   },
   {
